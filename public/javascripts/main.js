@@ -17,10 +17,12 @@ function search() {
 	 		},
 	 		success: function(result) {
 				$.each(result, function(i,instance){
-					content += "</tr>";
+					content += "<div class='result'>";
+					content += "<a>Onion</a>";
+					content += "</div>";
 	       		});		
 		$("#searchResults").show();
-		$(content).appendTo("#invTbody");
+		$(content).appendTo("#searchResults");
 		}
 	});
 }
