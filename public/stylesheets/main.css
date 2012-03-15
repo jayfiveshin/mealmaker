@@ -1,3 +1,41 @@
 body {
 	background-color: #8cb93c;
 }
+#wrapper {
+	text-align:center;
+}
+#ingredientSearch {
+	width: 500px;
+	height: 50px;
+	border: 2px solid #000;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	font-size: 23px;
+	padding-left: 10px;
+}
+#searchResults {
+	position: relative;
+	width: 503px;
+	height: 150px;
+	border: 1px solid black;
+	-moz-border-radius: 10px;
+	border-radius: 0px 0px 10px 10px;
+	font-size: 16px;
+	padding-left: 10px;
+	background-color: white;
+	left: 310px;
+	top: -8px;
+}
+#addButton {
+	padding:22px 5px 13px 9px;
+	border: 2px solid #000;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	background-color:#0AC92B;
+	background-image:url('../images/greenButton.png');
+	background-repeat:repeat-x;
+	font-size: 16px;
+	font-weight:bold;
+	font-family:tahoma,verdana,arial,sans-serif;
+	cursor:pointer;
+}
