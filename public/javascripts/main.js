@@ -1,4 +1,8 @@
-$(document).ready(function() { 
+$(document).ready(function() {
+	
+	$("#tagSearch").keyup(function() {
+		search();
+	}); 
 	
 });
 
