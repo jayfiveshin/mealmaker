@@ -13,6 +13,17 @@ body {
 	font-size: 23px;
 	padding-left: 10px;
 }
+#searchResults {
+	position:relative;
+	width: 500px;
+	height: 150px;
+	border: 1px solid #000;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	font-size: 16px;
+	padding-left: 10px;
+	background-color: #fff;
+}
 #addButton {
 	padding:22px 5px 13px 9px;
 	border: 2px solid #000;
@@ -22,4 +33,5 @@ body {
 	font-size: 16px;
 	font-weight:bold;
 	font-family:tahoma,verdana,arial,sans-serif;
+	cursor:pointer;
 }
