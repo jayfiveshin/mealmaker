@@ -39,3 +39,15 @@ body {
 	font-family:tahoma,verdana,arial,sans-serif;
 	cursor:pointer;
 }
+#generateRecipes {
+	padding: 22px 63px 13px 54px;
+	border: 2px solid #000;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	background-image:url('../images/orangebutton.png');
+	background-repeat:repeat-x;
+	font-size: 16px;
+	font-weight:bold;
+	font-family:tahoma,verdana,arial,sans-serif;
+	cursor:pointer;
+}
